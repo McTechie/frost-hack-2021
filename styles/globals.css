@@ -4,6 +4,7 @@ html, body {
   background: floralwhite;
   color: #444;
   font-family: 'Nunito';
+  scroll-behavior: smooth;
 }
 
 ::selection {
@@ -20,8 +21,38 @@ html, body {
   box-shadow: 5px 10px #444;
 }
 
-nav a {
-  display: block;
+.event-info {
+  background: url("/event-bg.jpg");
+  height: 91.8vh;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.event-info h1 {
+  display: inline-block;
+  padding: 2%;
+  margin: 2%;
+  margin-top: 3%;
+  text-align: center;
+  background: floralwhite;
+  border: 1px solid #444;
+  box-shadow: 5px 10px #444;
+  transform: rotateZ(-4deg);
+}
+
+.event-info h3 {
+  display: inline-block;
+  padding: 1%;
+  text-align: center;
+  background: floralwhite;
+  border: 1px solid #444;
+  box-shadow: 5px 10px #444;
+  transform: rotateZ(2deg);
+  position: relative;
+  top: -2px;
+  left: 2%;
 }
 
 footer {
@@ -31,4 +62,12 @@ footer {
   margin-top: 60px;
   color: rgb(129, 129, 129);
   border-top: 1px solid rgb(207, 207, 207);
+}
+
+@media screen and (min-width: 768px) {
+  .event-info h3 {
+    position: relative;
+    top: 40px;
+    left: -10%;
+  }
 }

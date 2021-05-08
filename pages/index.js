@@ -1,5 +1,3 @@
-// Main Event Listings Page
-
 import Head from 'next/head'
 
 export default function Home() {
@@ -8,9 +6,10 @@ export default function Home() {
       <Head>
         <meta  />
       </Head>
-      <div className="content">
+      <div className="event-info">
         <header>
-          <h1 className="header">Event Listings</h1>
+          <h1>Planning Amazing Events</h1>
+          <h3>Just got easier!</h3>
         </header>
       </div>
     </>
