@@ -8,7 +8,7 @@ const Navbar = () => {
                 <Link href="/">
                     <a className="navbar-brand">
                         <Image src="/logo.png" width={30} height={24} className="d-inline-block align-text-top" />
-                        Frost Hack
+                        Eventor Managements
                     </a>
                 </Link>
                 <div className="ml-lg-auto">
