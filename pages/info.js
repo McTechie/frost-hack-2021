@@ -18,10 +18,10 @@ const Info = () => {
                                     <div className="vn_icon_square bck_red"></div>
                                  
                                         <div className="vn_title">
-                                            Event Date and Time
+                                            Event Time
                                         </div>
                                         <div className="vn_desc">
-                                           14 May 2020 @10:00 am       
+                                           10:00 A.M
                                         </div>
                                 </div>
                             </div>
@@ -34,10 +34,26 @@ const Info = () => {
                                     <div className="vn_icon_square bck_yellow"></div>
                                
                                         <div className="vn_title">
-                                            Event Location
+                                            Event Date
                                         </div>
                                         <div className="vn_desc">
-                                           From your laptops      
+                                           May 14th, 2021
+                                        </div>
+                                </div>
+                            </div>
+                        </div>
+                        </Zoom>
+                        <Zoom duration={500} delay={500}>
+                           <div className="vn_item">
+                            <div className="vn_outer">
+                                <div className="vn_inner">
+                                    <div className="vn_icon_square bck_yellow"></div>
+                               
+                                        <div className="vn_title">
+                                            Venue
+                                        </div>
+                                        <div className="vn_desc">
+                                           Google Meet
                                         </div>
                                 </div>
                             </div>
