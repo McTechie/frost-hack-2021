@@ -20,7 +20,7 @@ const Navbar = () => {
                             <Link href='/'><a className="nav-link px-3 mt-3 mt-lg-0" aria-current="page">Home</a></Link>
                             <Link href='/info'><a className="nav-link px-3 mt-1 mt-lg-0" >Event Info</a></Link>
                             <Link href='/participants'><a className="nav-link px-3 mt-1 mt-lg-0">Participants</a></Link>
-                            <Link href='/budgets'><a className="nav-link px-3 mt-1 mt-lg-0">Budgets</a></Link>
+                            {/* <Link href='/budgets'><a className="nav-link px-3 mt-1 mt-lg-0">Budgets</a></Link> */}
                             <Link href='/workflow'><a className="nav-link px-3 mt-1 mt-lg-0">Workflow</a></Link>
                         </div>
                     </div>
