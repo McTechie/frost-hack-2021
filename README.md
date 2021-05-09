@@ -30,12 +30,6 @@
 
 ### Workflow Planner
 
-![Workflow Page](./assets/workflow.png)
-
----
-
-### Participants List
-
-![Participants Page](./assets/participants.png)
+![Workflow Page](./assets/workflow.jpg)
 
 ---
