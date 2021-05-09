@@ -1,34 +1,41 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Eventor Managements :sparkles:
 
-## Getting Started
+> This web application has been created by Team Accuracy Sneakers ([McTechie](https://github.com/McTechie) and [SauravTelge](https://github.com/SauravTelge)) for the [**Frost Hack 2021**](https://frosthack.com/) targetting the '**Event Management**' theme
 
-First, run the development server:
+### Tech Stack Used
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+- [x] HTML5
+- [x] CSS3
+- [x] Bootstrap (UI)
+- [x] Next.js (Frontend)
+- [x] Vercel (Deployment &amp; Hosting)
+- [x] Firebase (Backend / Database)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+### Sitemap
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+- **Home (Landing Page) -** Serves as the landing page for the web application
+- **Event Info -** Provides details regarding the event to be conducted and provides a form for interested participants to register
+- **Participants -** Lists all the registered participants for the event, with their details
+- **Workflow -** A kanban-styled page to organize project workflows
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+---
 
-## Learn More
+### Landing Page
 
-To learn more about Next.js, take a look at the following resources:
+![Landing Page](./assets/landing.png)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+### Workflow Planner
 
-## Deploy on Vercel
+![Workflow Page](./assets/workflow.png)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+### Participants List
+
+![Participants Page](./assets/participants.png)
+
+---
